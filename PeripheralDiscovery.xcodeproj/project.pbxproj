@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780512D42097B4FD009328F1 /* BluetoothDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780512D32097B4FD009328F1 /* BluetoothDeviceCell.swift */; };
 		78DD41AD209507CD007C6D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD41AC209507CD007C6D3F /* AppDelegate.swift */; };
 		78DD41AF209507CD007C6D3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD41AE209507CD007C6D3F /* MainViewController.swift */; };
 		78DD41B2209507CD007C6D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DD41B0209507CD007C6D3F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780512D32097B4FD009328F1 /* BluetoothDeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceCell.swift; sourceTree = "<group>"; };
 		78DD41A9209507CD007C6D3F /* PeripheralDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeripheralDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DD41AC209507CD007C6D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DD41AE209507CD007C6D3F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				78DD41B3209507CE007C6D3F /* Assets.xcassets */,
 				78DD41B5209507CE007C6D3F /* LaunchScreen.storyboard */,
 				78DD41B8209507CF007C6D3F /* Info.plist */,
+				780512D32097B4FD009328F1 /* BluetoothDeviceCell.swift */,
 			);
 			path = PeripheralDiscovery;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780512D42097B4FD009328F1 /* BluetoothDeviceCell.swift in Sources */,
 				78DD41AF209507CD007C6D3F /* MainViewController.swift in Sources */,
 				78DD41AD209507CD007C6D3F /* AppDelegate.swift in Sources */,
 			);
